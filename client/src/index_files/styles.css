@@ -1,0 +1,140 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+
+
+
+
+   #myCarousel
+   {
+     margin-top:100px;
+   }
+
+  #features{
+    text-align:center;
+  }
+  #features img{
+    margin:0px 0px 20px;
+  }
+
+
+   footer {
+   	background: #333;
+   	color: #eee;
+   	font-size: 11px;
+   	padding: 20px;
+   }
+
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body {
+   	-webkit-font-smoothing: antialiased;
+   	text-rendering: optimizelegibility;
+    margin: auto;
+   }
+
+
+   ul.unstyled {
+     list-style:none;
+     padding:0;
+   }
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbarfixed-top {
+     width:1440px;
+     height:80;
+   }
+   .navbar img{
+     height:60px;
+     width:140px;
+   }
+
+   #link1 a-hover{
+     text-decoration: underline;
+   }
+   #searchInput {
+     	width: 200px;
+      margin-top:0px;
+   }
+
+
+   .navbar-brand {
+   	padding: 13px 15px;
+   }
+#carousel1
+{
+  margin-top:20px;
+}
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+@media  screen and  (min-width:37.4em){
+    .as{
+  width:100%;
+}
+}
+@media  screen and  (max-width:37.5em){
+  .as
+  {
+    width:100%;
+  }
+
+}
+
+#types .carousel-caption{
+  top:20px;
+}
+#types .carousel-caption h1{
+  color:red;
+  font-family: fantasy;
+}
+#types .carousel-caption p{
+  color:black;
+  font-family: sans-serif;
+}
+
+#seat .carousel-caption{
+  top:200px;
+  color:white;
+  font-family:sans-serif;
+}
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+   /* Portrait & landscape phone */
